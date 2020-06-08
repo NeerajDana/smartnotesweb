@@ -1,65 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Smart Notes | Sticky Notes for Browser</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta
-      property="og:site_name"
-      content="Smart Note  is a note-taking and sticky notes  service on chrome new tab (Currently ) developed by Smartcodehub"
-    />
+<head>
+  <meta charset="utf-8" />
+  <title>Smart Notes | Sticky Notes for Browser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta
-      property="og:title"
-      content="Smart Notes | Sticky Notes for Browser"
-    />
-    <meta
-      property="og:description"
-      content="Smart Note  is a note-taking and sticky notes  service on chrome new tab (Currently ) developed by Smartcodehub"
-    />
-    <meta property="og:url" content="https://smartnotes.smartcodehub.com/" />
-    <meta property="og:image" content="https://i.imgur.com/gc74jbt.png" />
+  <meta property="og:site_name"
+    content="Smart Note  is a note-taking and sticky notes  service on chrome new tab (Currently ) developed by Smartcodehub" />
 
-    <meta
-      property="article:publisher"
-      content="https://www.facebook.com/officialsmartcodehub"
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Smart Notes | Sticky Notes for Browser"
-    />
-    <meta
-      name="twitter:description"
-      content="Utilizing a virtual copy of the DOM, it is designed to perform operations virtually before they are rendered to the standard JavaScript DOM tree. This isn&#x27;t just a numbers game."
-    />
-    <meta name="twitter:url" content="https://smartnotes.smartcodehub.com/" />
-    <meta name="twitter:image" content="https://i.imgur.com/gc74jbt.png" />
+  <meta property="og:title" content="Smart Notes | Sticky Notes for Browser" />
+  <meta property="og:description"
+    content="Smart Note  is a note-taking and sticky notes  service on chrome new tab (Currently ) developed by Smartcodehub" />
+  <meta property="og:url" content="https://smartnotes.smartcodehub.com/" />
+  <meta property="og:image" content="https://i.imgur.com/gc74jbt.png" />
 
-    <meta
-      name="twitter:data2"
-      content=" javascript,sticky notes ,sticky notes for browser"
-    />
-    <meta name="twitter:site" content="@neeraj123bh" />
-    <meta property="og:image:width" content="1080" />
-    <meta property="og:image:height" content="721" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-156839921-2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <meta property="article:publisher" content="https://www.facebook.com/officialsmartcodehub" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Smart Notes | Sticky Notes for Browser" />
+  <meta name="twitter:description"
+    content="Utilizing a virtual copy of the DOM, it is designed to perform operations virtually before they are rendered to the standard JavaScript DOM tree. This isn&#x27;t just a numbers game." />
+  <meta name="twitter:url" content="https://smartnotes.smartcodehub.com/" />
+  <meta name="twitter:image" content="https://i.imgur.com/gc74jbt.png" />
 
-      gtag("config", "UA-156839921-2");
-    </script>
+  <meta name="twitter:data2" content=" javascript,sticky notes ,sticky notes for browser" />
+  <meta name="twitter:site" content="@neeraj123bh" />
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="721" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156839921-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <script type="application/ld+json">
+    gtag("config", "UA-156839921-2");
+  </script>
+
+  <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
@@ -104,364 +84,287 @@
       }
     </script>
 
-    <!-- favicon -->
-    <link
-      rel="shortcut icon"
-      href="https://blog.smartcodehub.com/favicon.png"
-    />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="https://blog.smartcodehub.com/favicon.png" />
 
-    <!-- icon -->
-    <link
-      href="css/materialdesignicons.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/pe-icon-7.css" />
+  <!-- icon -->
+  <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
 
-    <!--Slider-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
 
-    <!-- css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <!-- Loader -->
-    <div id="preloader">
-      <div id="status">
-        <div class="spinner">
-          <div class="dot1"></div>
-          <div class="dot2"></div>
+
+
+  <!-- css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="preloader">
+    <div id="status">
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--Navbar Start-->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+    <div class="container">
+      <!-- LOGO -->
+      <a class="navbar-brand logo" href="#">
+        <img src="images/logo1.png" alt="" class="" height="50" />
+      </a>
+      <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="mdi mdi-menu"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
+          <li class="nav-item active">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#clients" class="nav-link">Clients</a>
+          </li>
+        </ul>
+        <div class="call-no">
+          <a href="#" class="nav-link text-warning"><i class="mdi mdi-phone mr-1"></i> +91 7304541558</a>
         </div>
       </div>
     </div>
+  </nav>
+  <!-- Navbar End -->
 
-    <!--Navbar Start-->
-    <nav
-      class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark"
-    >
-      <div class="container">
-        <!-- LOGO -->
-        <a class="navbar-brand logo" href="#">
-          <img src="images/logo1.png" alt="" class="" height="50" />
-        </a>
-        <button
-          class="navbar-toggler p-0"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="mdi mdi-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
-            <li class="nav-item active">
-              <a href="#home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#features" class="nav-link">Features</a>
-            </li>
-            <li class="nav-item">
-              <a href="#clients" class="nav-link">Clients</a>
-            </li>
-          </ul>
-          <div class="call-no">
-            <a href="#" class="nav-link text-warning"
-              ><i class="mdi mdi-phone mr-1"></i> +91 7304541558</a
-            >
+  <!-- Hero Start -->
+  <section class="hero-1-bg position-relative bg-light d-flex align-items-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="hero-title pr-lg-5">
+            <p class="text-uppercase text-primary font-weight-medium f-14 mb-4">
+              STICKY NOTES
+            </p>
+            <h1 class="hero-1-title mb-4 font-weight-normal line-height-1_4">
+              Sticky Notes For Web Browser
+              <span class="text-primary font-weight-medium">Smart Notes</span>
+            </h1>
+            <a href="https://chrome.google.com/webstore/detail/smart-notes-tab/aimmakfgnnekphmbajghonpfkjljmfkn"
+              target="blank" class="btn btn-warning">Get It Now<span class="ml-2 right-icon">&#8594;</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="mt-5 mt-lg-0">
+            <img src="https://i.imgur.com/gc74jbt.png" alt="" class="img-fluid mx-auto d-block" />
           </div>
         </div>
       </div>
-    </nav>
-    <!-- Navbar End -->
+    </div>
+  </section>
+  <!-- Hero End -->
 
-    <!-- Hero Start -->
-    <section
-      class="hero-1-bg position-relative bg-light d-flex align-items-center"
-      id="home"
-    >
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="hero-title pr-lg-5">
-              <p
-                class="text-uppercase text-primary font-weight-medium f-14 mb-4"
-              >
-                STICKY NOTES
-              </p>
-              <h1 class="hero-1-title mb-4 font-weight-normal line-height-1_4">
-                Sticky Notes For Web Browser
-                <span class="text-primary font-weight-medium">Smart Notes</span>
-              </h1>
-              <a
-                href="https://chrome.google.com/webstore/detail/smart-notes-tab/aimmakfgnnekphmbajghonpfkjljmfkn"
-                target="blank"
-                class="btn btn-warning"
-                >Get It Now<span class="ml-2 right-icon">&#8594;</span></a
-              >
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="mt-5 mt-lg-0">
-              <img
-                src="https://i.imgur.com/gc74jbt.png"
-                alt=""
-                class="img-fluid mx-auto d-block"
-              />
-            </div>
+  <!-- Features Start -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+          <div class="title text-center mb-5">
+            <h3 class="font-weight-normal text-dark">
+              What Smart Notes <span class="text-warning">Offers</span>
+            </h3>
+            <p class="text-muted">
+              Well The aim is really high . but for now you can have the
+              features below
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Hero End -->
 
-    <!-- Features Start -->
-    <section class="section" id="features">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 col-md-8">
-            <div class="title text-center mb-5">
-              <h3 class="font-weight-normal text-dark">
-                What Smart Notes <span class="text-warning">Offers</span>
-              </h3>
-              <p class="text-muted">
-                Well The aim is really high . but for now you can have the
-                features below
-              </p>
-            </div>
+      <div class="row align-items-center">
+        <div class="col-md-5" style="background: url(images/features/features-bg.png) center center">
+          <div class="features-img">
+            <img src="images/features/img-1.png" alt="" class="img-fluid d-block mx-auto" />
           </div>
         </div>
-
-        <div class="row align-items-center">
-          <div
-            class="col-md-5"
-            style="background: url(images/features/features-bg.png) center center"
-          >
-            <div class="features-img">
-              <img
-                src="images/features/img-1.png"
-                alt=""
-                class="img-fluid d-block mx-auto"
-              />
+        <div class="col-md-6 offset-md-1">
+          <div class="features-box mt-5 mt-sm-0 mb-4">
+            <div class="features-icon my-4">
+              <i class="mdi mdi-laptop-mac"></i>
             </div>
-          </div>
-          <div class="col-md-6 offset-md-1">
-            <div class="features-box mt-5 mt-sm-0 mb-4">
-              <div class="features-icon my-4">
-                <i class="mdi mdi-laptop-mac"></i>
-              </div>
-              <h5 class="text-dark font-weight-normal mb-3 pt-3">
-                Sticky Notes
-              </h5>
-              <p class="text-muted mb-3 f-15">
-                You can save some quick notes with a title and a body so that
-                whenever you need it they are right thier in you new tab
-              </p>
-            </div>
+            <h5 class="text-dark font-weight-normal mb-3 pt-3">
+              Sticky Notes
+            </h5>
+            <p class="text-muted mb-3 f-15">
+              You can save some quick notes with a title and a body so that
+              whenever you need it they are right thier in you new tab
+            </p>
           </div>
         </div>
+      </div>
 
-        <div class="row align-items-center mt-5">
-          <div class="col-md-6">
-            <div class="features-box mb-4">
-              <div class="features-icon my-4">
-                <i class="mdi mdi-account-group"></i>
-              </div>
-              <h5 class="text-dark font-weight-normal mb-3 pt-3">
-                Image Notes
-              </h5>
-              <p class="text-muted mb-3 f-15">
-                Some time you need to save a nopte with a image we take care of
-                that also now you can save a image supported by a title and body
-              </p>
+      <div class="row align-items-center mt-5">
+        <div class="col-md-6">
+          <div class="features-box mb-4">
+            <div class="features-icon my-4">
+              <i class="mdi mdi-account-group"></i>
             </div>
-          </div>
-          <div
-            class="col-md-5 offset-md-1 mt-5 mt-sm-0"
-            style="background: url(images/features/features-bg.png) center center"
-          >
-            <div class="features-img">
-              <img
-                src="images/features/img-2.png"
-                alt=""
-                class="img-fluid d-block mx-auto"
-              />
-            </div>
+            <h5 class="text-dark font-weight-normal mb-3 pt-3">
+              Image Notes
+            </h5>
+            <p class="text-muted mb-3 f-15">
+              Some time you need to save a nopte with a image we take care of
+              that also now you can save a image supported by a title and body
+            </p>
           </div>
         </div>
-
-        <div class="row align-items-center mt-5">
-          <div
-            class="col-md-5"
-            style="background: url(images/features/features-bg.png) center center"
-          >
-            <div class="features-img">
-              <img
-                src="images/features/img-3.png"
-                alt=""
-                class="img-fluid d-block mx-auto"
-              />
-            </div>
+        <div class="col-md-5 offset-md-1 mt-5 mt-sm-0"
+          style="background: url(images/features/features-bg.png) center center">
+          <div class="features-img">
+            <img src="images/features/img-2.png" alt="" class="img-fluid d-block mx-auto" />
           </div>
-          <div class="col-md-6 offset-md-1">
-            <div class="features-box mt-5 mt-sm-0 mb-4">
-              <div class="features-icon my-4">
-                <i class="mdi mdi-chart-bell-curve"></i>
+        </div>
+      </div>
+
+      <div class="row align-items-center mt-5">
+        <div class="col-md-5" style="background: url(images/features/features-bg.png) center center">
+          <div class="features-img">
+            <img src="images/features/img-3.png" alt="" class="img-fluid d-block mx-auto" />
+          </div>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <div class="features-box mt-5 mt-sm-0 mb-4">
+            <div class="features-icon my-4">
+              <i class="mdi mdi-chart-bell-curve"></i>
+            </div>
+            <h5 class="text-dark font-weight-normal mb-3 pt-3">
+              Voice memo (on the way )
+            </h5>
+            <p class="text-muted mb-3 f-15">
+              dont want to write still need something to be captured do it we
+              have a voice memo also where you can use your mike and save a
+              audio as your notes
+            </p>
+            <a href="#" class="f-16 text-warning">More features comming soon
+              <span class="right-icon ml-2">&#8594;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Features End -->
+
+  <!-- Testimonial Start -->
+
+  <!-- Testimonial End -->
+
+  <!-- Contact Us Start -->
+
+  <!-- Contact Us End -->
+
+  <!-- Subscribe Start -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="row">
+            <div class="col-4">
+              <div class="subscribe-icon">
+                <img src="images/icon/1.png" alt="" class="img-fluid mx-auto d-block" />
               </div>
-              <h5 class="text-dark font-weight-normal mb-3 pt-3">
-                Voice memo (on the way )
-              </h5>
-              <p class="text-muted mb-3 f-15">
-                dont want to write still need something to be captured do it we
-                have a voice memo also where you can use your mike and save a
-                audio as your notes
-              </p>
-              <a href="#" class="f-16 text-warning"
-                >More features comming soon
-                <span class="right-icon ml-2">&#8594;</span></a
-              >
+            </div>
+            <div class="col-4">
+              <div class="subscribe-icon">
+                <img src="images/icon/2.png" alt="" class="img-fluid mx-auto d-block" />
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="">
+                <img src="images/icon/3.png" alt="" class="img-fluid mx-auto d-block" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Features End -->
 
-    <!-- Testimonial Start -->
-
-    <!-- Testimonial End -->
-
-    <!-- Contact Us Start -->
-
-    <!-- Contact Us End -->
-
-    <!-- Subscribe Start -->
-    <section class="section bg-light">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="row">
-              <div class="col-4">
-                <div class="subscribe-icon">
-                  <img
-                    src="images/icon/1.png"
-                    alt=""
-                    class="img-fluid mx-auto d-block"
-                  />
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="subscribe-icon">
-                  <img
-                    src="images/icon/2.png"
-                    alt=""
-                    class="img-fluid mx-auto d-block"
-                  />
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="">
-                  <img
-                    src="images/icon/3.png"
-                    alt=""
-                    class="img-fluid mx-auto d-block"
-                  />
-                </div>
-              </div>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="text-center mt-5 mb-4">
+            <h6 class="text-muted font-weight-normal">
+              Subscribe To Our Newsletter For New Content,
+              <span class="d-block mt-2">Update And Giveaways!</span>
+            </h6>
+          </div>
+          <div class="text-center subscribe-form mt-4">
+            <form action="#">
+              <input type="text" placeholder="Your Email Address..." />
+              <button type="submit" class="btn btn-warning">Subscribe</button>
+            </form>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <!-- Subscribe End -->
 
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="text-center mt-5 mb-4">
-              <h6 class="text-muted font-weight-normal">
-                Subscribe To Our Newsletter For New Content,
-                <span class="d-block mt-2">Update And Giveaways!</span>
+  <!-- footer Start -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="mb-4">
+            <a href="layout-one-1.html"><img src="images/logo1.png" alt="" class="logo-dark" height="50" /></a>
+            <p class="text-muted mt-4 mb-2">neerajdana9@gmail.com</p>
+            <h6 class="text-muted font-weight-normal">+91-7304-541-558</h6>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-md-12">
+              <h6 class="footer-list-title text-dark mb-3">
+                Want to Advertise With us
               </h6>
-            </div>
-            <div class="text-center subscribe-form mt-4">
-              <form action="#">
-                <input type="text" placeholder="Your Email Address..." />
-                <button type="submit" class="btn btn-warning">Subscribe</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Subscribe End -->
-
-    <!-- footer Start -->
-    <section class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="mb-4">
-              <a href="layout-one-1.html"
-                ><img
-                  src="images/logo1.png"
-                  alt=""
-                  class="logo-dark"
-                  height="50"
-              /></a>
-              <p class="text-muted mt-4 mb-2">neerajdana9@gmail.com</p>
-              <h6 class="text-muted font-weight-normal">+91-7304-541-558</h6>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-md-12">
-                <h6 class="footer-list-title text-dark mb-3">
-                  Want to Advertise With us
-                </h6>
-                <p class="text-muted f-14">Let us know at</p>
-                <h6 class="text-muted pb-2">Email: neerajdana9@gmail.com</h6>
-                <ul class="list-unstyled footer-social-list mt-4">
-                  <li class="list-inline-item">
-                    <a href="#"><i class="mdi mdi-facebook"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><i class="mdi mdi-instagram"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"><i class="mdi mdi-linkedin"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-12">
-            <div class="text-center text-muted">
-              <p class="mb-0 f-15">2020 © Smartcodehub</p>
+              <p class="text-muted f-14">Let us know at</p>
+              <h6 class="text-muted pb-2">Email: neerajdana9@gmail.com</h6>
+              <ul class="list-unstyled footer-social-list mt-4">
+                <li class="list-inline-item">
+                  <a href="#"><i class="mdi mdi-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="mdi mdi-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="mdi mdi-linkedin"></i></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- footer End -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="text-center text-muted">
+            <p class="mb-0 f-15">2020 © Smartcodehub</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer End -->
 
-    <!-- javascript -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/scrollspy.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- Counter js -->
-    <!-- carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Main Js -->
-    <script src="js/app.js"></script>
-  </body>
+  <!-- javascript -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Main Js -->
+  <script src="js/app.js"></script>
+</body>
+
 </html>

@@ -27,66 +27,8 @@ $('.nav-item a, .mouse-down a').on('click', function(event) {
 });
 
 
-// scrollspy
-$(".navbar-nav").scrollspy({
-    offset: 70
-});
 
 
-//owlCarousel
-$('.owl-carousel').owlCarousel({
-    autoplay:true,
-    autoplayTimeout:3000,
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:2
-        }
-    }
-})
-
-// contact
-
-$('#contact-form').submit(function() {
-
-    var action = $(this).attr('action');
-
-    $("#message").slideUp(750, function() {
-        $('#message').hide();
-
-        $('#submit')
-            .before('')
-            .attr('disabled', 'disabled');
-
-        $.post(action, {
-                name: $('#name').val(),
-                email: $('#email').val(),
-                comments: $('#comments').val(),
-            },
-            function(data) {
-                document.getElementById('message').innerHTML = data;
-                $('#message').slideDown('slow');
-                $('#cform img.contact-loader').fadeOut('slow', function() {
-                    $(this).remove()
-                });
-                $('#submit').removeAttr('disabled');
-                if (data.match('success') != null) $('#cform').slideUp('slow');
-            }
-        );
-
-    });
-
-    return false;
-
-});
 
 // loader
 $(window).on('load', function() {
